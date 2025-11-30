@@ -1,0 +1,20 @@
+    1  > ~/.bash_history
+    2  exit
+    3  history
+    4  pwd
+    5  cd ~
+    6  cd Desktop/
+    7  ls -latr ; mkdir cs149 ; cd cs149
+    8  git init
+    9  sudo apt install git
+   10  git init
+   11  git remote add origin https://github.com/msyed03/cs149.git
+   12  git config --global user.email "syedmisbah.ms@gmail.com"
+   13  git config --global user.name "Misbah Syed"
+   14  mkdir WS_bonus
+   15  cd WS_bonus
+   16  git add .
+   17  wget -0 out.pdf https://tinyurl.com/yy94jltt
+   18  wget -O out.pdf https://tinyurl.com/yy94jltt
+   19  ls -latr
+   20  history > cmds.log
