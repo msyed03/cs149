@@ -1,0 +1,54 @@
+    1  > ~/.bash_history
+    2  exit
+    3  history
+    4  pwd
+    5  cd ~
+    6  cd Desktop/
+    7  ls -latr ; mkdir cs149 ; cd cs149
+    8  git init
+    9  sudo apt install git
+   10  git init
+   11  git remote add origin https://github.com/msyed03/cs149.git
+   12  git config --global user.email "syedmisbah.ms@gmail.com"
+   13  git config --global user.name "Misbah Syed"
+   14  mkdir WS_bonus
+   15  cd WS_bonus
+   16  git add .
+   17  wget -0 out.pdf https://tinyurl.com/yy94jltt
+   18  wget -O out.pdf https://tinyurl.com/yy94jltt
+   19  ls -latr
+   20  history > cmds.log
+   21  git add cmds.log *.c
+   22  git status
+   23  git add cmds.log
+   24  git commit -m "First commit" -a
+   25  git branch
+   26  git branch -m master main
+   27  git branch
+   28  git push -u origin main
+   29  sudo apt-get update && sudo apt-get upgrade
+   30  sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+   31  qemu-system-riscv64 --version
+   32  riscv64-linux-gnu-gcc --version
+   33  riscv64-unknown-elf-gcc --version
+   34  sudo apt install gcc-riscv64-unknown-elf-gcc
+   35  sudo apt install gcc-riscv64-unknown-elf
+   36  cd ~
+   37  git clone git://g.csail.mit.edu/xv6-labs-2023
+   38  cd xv6-labs-2023
+   39  cd user
+   40  nano sleep.c
+   41  cd ..
+   42  nano Makefile
+   43  make qemu
+   44  xv6-labs-2023/user/sleep.c
+   45  mv ~/Desktop/cs149/WS_bonus/sleep.c ~/Desktop/cs149/xv6-labs-2023/user/
+   46  ls ~Desktop/cs149/WS_bonus/
+   47  mv ~/Desktop/cs149/WS_bonus/sleep.c ~/xv6-labs-2023/user/
+   48  ls ~/Desktop/cs149/WS_bonus
+   49  nano ~/xv6-labs-2023/user/sleep.c
+   50  make qemu
+   51  nano ~/xv6-labs-2023/user/sleep.c
+   52  make qemu
+   53  history > ~Desktop/cs149/WS_bonus/worksheet1.log
+   54  history > ~/Desktop/cs149/WS_bonus/worksheet1.log
